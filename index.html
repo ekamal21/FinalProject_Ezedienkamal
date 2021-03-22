@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Parrots</title>
+    <link href="style.css/StyleSheet.css" rel="stylesheet" />
+    <script src="script.js " async></script>
+    <style>
+        html {
+            overflow: hidden;
+            height: 100%;
+        }
+
+        body {
+
+            margin: 0px;
+            padding: 0px;
+            overflow: auto;
+            height: 100%;
+
+        }
+
+        .color {
+            color: white;
+            text-align: center;
+
+        }
+
+        #btn {
+            background-color: crimson;
+            text-align: center;
+            color: black;
+
+        }
+
+        .pictures {
+
+            text-align: center;
+            margin-bottom: auto;
+        }
+
+        .footer {
+            background-color: black;
+            position: relative;
+            height: 100px;
+            margin-top: 198px;
+            opacity: .4;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <section>
+            <button id="btn"> Check Local Time</button>
+            <div id="getDate"></div>
+        </section>
+
+
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="videos.html">Videos</a> </li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="color">
+        <br />
+        <br />
+
+        <h1 id="title1">About Parrots</h1>
+
+        Parrots are members of the order Psittaciformes, which includes more than 350 bird species,
+        <br />including parakeets,macaws, cockatiels and cockatoos, according to the Integrated Taxonomic
+        <br />Information System (ITIS). Though there are many types of parrots,all parrot species
+        <br /> have a few traits in common. For example, to be classified as a parrot,
+        <br />the bird must have a curved beak, and its feet must be zygodactyl,
+        <br /> be zygodactyl, which means there are four toes
+        <br />on each foot with two toes that point
+        <br /> forward and two that
+        <br />point backward.
+        <br />
+        <br />
+        <button class="change" onclick="changeColor()">Change color</button>
+        <style></style>
+        <br>
+        <h1 id="title2">Their Ability to Speak</h1>
+        <div class="dent">
+            Regarding their ability to speak, several scientific studies have shown that
+            <br />they are not only able to imitate human speech, but also in
+            <br /> many cases,establish correct associations between
+            <br />words and their meanings, even to form simple
+            <br />sentences. Some African Grey who can repeat
+            <br />more than a thousand different words.
+            <br />It may be for these reasons
+            <br />that he is considered
+            <br />the most intelligent
+            <br />bird in the world.
+        </div>
+        <br />
+        <br />
+        <br />
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="jsText">
+        </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <section class="pictures">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/1.jpg" alt="Parrot 1"
+            width="100" height="100">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/2.jpg" alt="Parrot 2"
+            width="100" height="100">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/3.jpg" alt="Parrot 3"
+            width="100" height="100">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/4.jpg" alt="Parrot 4"
+            width="100" height="100">
+    </section>
+
+    <footer>
+        <div class="footer">
+            <br />
+            <br />
+            <p> &#169; Copyright: 2021 Ezedien kamal</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

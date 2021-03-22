@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="style.css/StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="ss_insert.css">
+    <script src="vid_script.js" async></script>
+    <title>Videos</title>
+    <style>
+        body {
+            background-image: url('parakeets.jpg');
+            background-size: cover;
+            margin: 0px;
+            overflow: auto;
+            padding: 0px;
+            height: 100%;
+        }
+
+        html {
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .a {
+
+            position: relative;
+
+        }
+
+        .footer {
+            background-color: black;
+            position: relative;
+            height: 100px;
+            margin-top: 198px;
+            opacity: .5;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="videos.html">Videos</a> </li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <h1 id="par">There are Many Species of Parrots and here are Few! </h1>
+    <main class="main">
+        <br>
+        <section class="left ">
+            <h1 id="weather"> Weather Instruments and Weather Convertor </h1>
+            <br>
+            <h1 id="f">Fahrenheit</h1>
+            <div class="text1">
+                <input name="fTemp" id="fTemp" type="text" />
+            </div>
+
+            <div class=btn1>
+                <br>
+                <button type="button" onclick="convertFToC();return false">Convert to Celsius</button>
+            </div>
+            <br>
+            <br>
+            <h1 id="c">Celsius</h1>
+            <div class="text1">
+                <input name="cTemp" id="cTemp" type="text" />
+            </div>
+            <div class="btn2">
+                <br>
+                <button type="button" onclick="convertCToF();return false">Convert to Fahrenheit</button>
+            </div>
+            <br>
+            <br>
+            <div class="btn3">
+                <button onclick="myFunction()">Remove color from the text </button>
+            </div>
+            <br>
+            <br>
+            <div id="parrots" class="mystyle">
+                Parrots, also known as psittacines, are birds of the roughly <br>
+                398 species in 92 genera comprising the order Psittaciformes,<br>
+                found mostly in tropical and subtropical regions. The order is <br>
+                subdivided into three superfamilies: the Psittacoidea, the <br>
+                Cacatuoidea, and the Strigopoidea
+                <br>
+                Most parrots live in tropical areas. Parrots have curved bills <br>
+                (beaks), strong legs and clawed feet.
+                <br>
+                <br>
+                <h2 id="top">Please provide below information </h2>
+
+                <form action="/action_page.php">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="fname">Last Name:</label><br>
+                    <input type="text" id="fname1" name="fname"><br><br>
+                    <label for="fname">Email Address:</label><br>
+                    <input type="text" id="email" name="fname"><br><br>
+                 
+                </form>
+                <br>
+
+                <form action="/action_page.php">
+                    <input type="radio" id="rad" name="contact me" value="yes">
+                    <label for="yes">Contact Me</label><br>
+                    <input type="radio" id="rad1" name="contact me" value="No">
+                    <label for="NO">Don't Contact</label><br>
+                  
+                </form>
+                <br>
+                <form action="/action_page.php">
+                    <textarea name="message" id="comment" rows="10"
+                        cols="50">leave your comment and ideas for this website please</textarea>
+                    <br><br>
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="a">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/269pa8s8WRA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <h1 class="par"> Parrot Talking!</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u7TiRqh7x8s" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h1>Talking Parrot Greating Baby Parrot!</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/c1ugVolPbGY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+    </main>
+    </section>
+    <footer>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="footer">
+            <br />
+            <br />
+            <p> &#169; Copyright: 2021 Ezedien kamal</p>
+        </div>
+    </footer>
+</body>
+
+</html>
